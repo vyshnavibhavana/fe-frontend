@@ -1,0 +1,78 @@
+/* Modal Styling */
+.custom-modal .modal-content {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.custom-modal .modal-header {
+    border-bottom: none;
+}
+
+.custom-modal .modal-title {
+    font-weight: 600;
+}
+
+.custom-modal .modal-header .close {
+    font-size: 1.5rem;
+}
+
+/* Input styling */
+.custom-input {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.custom-input:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Custom Cancel Button */
+.custom-cancel-btn {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.custom-cancel-btn:hover {
+    background-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* Custom Add Button */
+.custom-add-btn {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.custom-add-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Open Modal Button */
+.open-modal-btn {
+    background-color: #00bcd4;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.open-modal-btn:hover {
+    opacity: 0.9;
+}

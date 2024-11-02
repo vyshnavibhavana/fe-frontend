@@ -1,0 +1,60 @@
+/* Sidebar layout */
+.sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    /* light gray background */
+    padding: 20px;
+    border-right: 1px solid #e3e3e3;
+}
+
+/* Sidebar header (logo/title) */
+.sidebar-header {
+    margin-bottom: 40px;
+}
+
+.sidebar-logo {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #212529;
+    /* dark text */
+}
+
+/* Navigation items */
+.nav-item {
+    font-size: 1rem;
+    padding: 10px 0;
+    color: #495057;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item i {
+    margin-right: 10px;
+    font-size: 1.25rem;
+}
+
+.nav-item:hover {
+    color: #007bff;
+    /* Bootstrap's primary blue */
+    text-decoration: none;
+}
+
+/* Active state */
+.nav-item.active {
+    color: #007bff;
+}
+
+/* Log out button */
+.logout-link {
+    color: #dc3545;
+    /* Bootstrap's danger red */
+}
+
+.logout-link:hover {
+    color: #c82333;
+}
+
+/* Bottom spacing */
+.mt-auto {
+    margin-top: auto;
+}
